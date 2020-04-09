@@ -4,8 +4,8 @@ import rootReducer from './../reducers/main.js';
 import exampleVideoData from '../data/exampleVideoData.js';
 
 const initialState = {
-  videos : exampleVideoData,
-  currentVideo : exampleVideoData[0]
+  videoList : [],
+  currentVideo : null
 };
 
 const store = createStore(rootReducer, initialState, applyMiddleware(thunk));

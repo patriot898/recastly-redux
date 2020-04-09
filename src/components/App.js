@@ -46,7 +46,7 @@ class App extends React.Component {
       <div>
         <nav className="navbar">
           <div className="col-md-6 col-md-offset-3">
-            <Search getYouTubeVideos={this.getYouTubeVideos}/>
+            <Search/>
           </div>
         </nav>
         <div className="row">
